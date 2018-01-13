@@ -1,0 +1,24 @@
+{
+  "name": "company_hunter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .jsx src/app --ext .js src/core/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.15.0",
+    "good": "hapijs/good",
+    "good-console": "hapijs/good-console",
+    "good-file": "hapijs/good-file",
+    "good-squeeze": "hapijs/good-squeeze",
+    "hapi": "^17.2.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
