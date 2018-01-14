@@ -32,9 +32,6 @@ const options = {
 };
 
 module.exports = {
-  plugin: {
-    name: 'Good',
-    ...Good,
-  },
+  plugin: Good,
   options,
 };
